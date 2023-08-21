@@ -1,7 +1,17 @@
 import { createRoot } from "react-dom/client";
 
+import Hero from "./module/Hero";
+import Results from "./module/Results";
+import Limitations from "./module/Limitations";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Hero />
+      <Results />
+      <Limitations />
+    </>
+  );
 };
 
 const container = document.getElementById("root");
