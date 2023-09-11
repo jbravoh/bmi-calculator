@@ -3,12 +3,15 @@ import { createRoot } from "react-dom/client";
 import Hero from "./module/Hero";
 import Results from "./module/Results";
 import Limitations from "./module/Limitations";
+import "../src/styles/App.css";
+import Suggestions from "./module/Suggestions";
 
 const App = () => {
   return (
     <>
       <Hero />
       <Results />
+      <Suggestions />
       <Limitations />
     </>
   );

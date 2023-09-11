@@ -1,0 +1,129 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+.calculator-container {
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 16px 32px 56px 0  rgba(143, 174, 207, 0.25);;
+    max-width: 32.25rem;
+    width: 100%;
+    z-index: 5;
+    background: var(--white);
+}
+
+
+
+
+.calculator-result-container {
+    background:  linear-gradient(90deg, var(--blue) 0%, rgba(88,125,255,1) 100%);
+    padding: 2rem;
+    color: var(--white);
+    border-radius: 16px 999px 999px 16px;
+
+    margin-top: 2rem;
+    gap: 1.5rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 27.3rem; */
+}
+
+.radio-wrapper {
+    display: flex;
+    margin-top: 2.2rem;
+    gap: 1.5rem;
+}
+
+.radio-label {
+    display: inline;
+    padding-left: 0.5rem;
+ 
+}
+
+
+.text-input-wrapper {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    justify-content: space-between;
+    /* max-width: 27.3rem; */
+    width: 100%;
+    align-items: flex-end;
+}
+
+.text-input {
+
+    border: none;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.text-input:active {
+    border-color: var(--blue);
+    /* border: 1px var(--blue) solid;  */
+}
+
+.text-input:focus {
+    outline: none;
+    /* You can also add other styles here if needed */
+  }
+
+
+
+
+.text-input-group {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+        border: 1px #D8E2E7 solid;  
+        padding: 1.25rem 1.5rem;
+
+}
+
+
+.text-input-group:focus-within {
+    border-color: var(--blue); /* Change border color when the div or its contents are focused */
+  }
+
+.unit-label {
+      color: var(--blue);
+      font-weight: 600;
+}
+
+
+#result-description {
+    color: var(--white);
+}
+
+.bmi-result-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex: 1;
+    margin-right: 1.5rem;
+    max-width: 12.9rem;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 76.063rem) {
+
+    .calculator-container {
+        max-width: 42.875rem;
+
+
+
+    }
+}
+

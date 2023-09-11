@@ -1,9 +1,9 @@
 import LimitationsCard from "./LimitationsCard";
-import { limitationsList } from "../../utls";
+import { limitations } from "../../utils";
 
 const Limitations = () => {
   return (
-    <section>
+    <section className="section-wrapper">
       <h2>Limitations of BMI</h2>
       <p>
         Although BMI is often a practical indicator of healthy weight, it is not
@@ -11,7 +11,7 @@ const Limitations = () => {
         BMI outcomes, and in certain cases, the measurement may not be
         beneficial to use.
       </p>
-      {limitationsList.map((limitation, index) => {
+      {limitations.map((limitation, index) => {
         return (
           <div key={index}>
             <LimitationsCard

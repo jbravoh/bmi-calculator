@@ -6,7 +6,7 @@ type Props = {
 const LimitationsCard = ({ name, description }: Props) => {
   return (
     <>
-      <h2>{name}</h2>
+      <h2 className="heading-s">{name}</h2>
       <p>{description}</p>
     </>
   );

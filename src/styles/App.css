@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    /* COLOURS */
+    --blue: #345FF6;
+    --gunmetal: #253347;
+    --electric-blue: #5E6E85;
+    --borders: #D8E2E7;
+    --white: #FFFFFF;
+
+    /* FONT */
+    --font: 'Inter', sans-serif;
+
+    /* RESPONSIVE */
+    --screen-l: 90rem;
+    --screen-m: 48rem;
+    --screen-sm: 23.4375rem;
+
+}
+
+
+* {
+    font-family: var(--font);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+/* TYPOGRAPHY */
+
+.heading-xl {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.2rem
+}
+
+.heading-l {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.15rem;
+    
+}
+
+.heading-m {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.075rem;
+}
+
+.heading-s {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.0625rem;
+    
+}
+
+.body-m {
+    font-size: 1rem;
+    line-height: 150%;
+
+}
+
+.body-m-bold {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.body-s {
+    font-size: 0.875rem;
+    line-height: 150%;
+    color: var(--electric-blue);
+}
+/* 
+
+section {
+
+} */
+
+
+/* LAYOUT */
+
+/* .layout-wrapper {
+    padding: 0 140px;
+} */
+
+/* .wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+
+} */
+
+
+.section-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+}
+
+.flex-item {
+    flex: 1; /* This makes all flex items in the container equally sized */
+    /* Additional styling for your flex items */
+  }
