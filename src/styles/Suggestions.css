@@ -1,4 +1,62 @@
 .suggestions-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    border-radius: 2.1875rem;
+    background: var(--Gradient-1, linear-gradient(290deg, rgba(214, 230, 254, 0.25) 0%, rgba(214, 252, 254, 0.25) 100%));
+    max-width: 87rem;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 5.5rem 7.25rem;
 }
+
+.suggestion-holder {
+    display: grid;
+    gap: 2.5rem 2rem;
+    max-width: 22.81rem;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#suggestion-image {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 78rem) {
+
+    .suggestions-wrapper {
+        padding: 3.75rem 2.44rem;
+    }
+
+}
+
+
+@media screen and (max-width: 48rem) {
+    .suggestions-wrapper {
+        flex-direction: column;
+    }
+
+    .suggestion-holder {
+        grid-template-columns: repeat(2, auto);
+        max-width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 23.44rem) {
+    .suggestions-wrapper {
+        flex-direction: column;
+    }
+
+    .suggestion-holder {
+        grid-template-columns: auto;
+        max-width: 100%;
+
+    }
+}
+

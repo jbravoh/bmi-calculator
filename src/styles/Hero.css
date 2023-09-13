@@ -9,8 +9,6 @@
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-   
-
 }
 
 .hero-text-wrapper {
@@ -32,15 +30,10 @@
     z-index: 1;
     top: -3rem;;
     left: 2%;
-
-    
-
-
 }
 
 @media screen and (max-width: 73.438rem) {
     
-
     .hero-wrapper {
         flex-direction: column;
         padding: 2rem;
@@ -53,13 +46,13 @@
         /* justify-content: center; */
         text-align: center;
     }
-  }
+}
 
-  @media screen and (max-width: 62.5rem) {
+@media screen and (max-width: 62.5rem) {
     #background-image {
         left: 0;
         width: 100%
-      
+        
         
     }
 }

@@ -19,8 +19,6 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 
-
-
 .calculator-result-container {
     background:  linear-gradient(90deg, var(--blue) 0%, rgba(88,125,255,1) 100%);
     padding: 2rem;
@@ -30,10 +28,8 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 2rem;
     gap: 1.5rem;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
-    /* max-width: 27.3rem; */
 }
 
 .radio-wrapper {
@@ -54,7 +50,6 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 2rem;
     gap: 1.5rem;
     justify-content: space-between;
-    /* max-width: 27.3rem; */
     width: 100%;
     align-items: flex-end;
 }
@@ -68,12 +63,10 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .text-input:active {
     border-color: var(--blue);
-    /* border: 1px var(--blue) solid;  */
 }
 
 .text-input:focus {
     outline: none;
-    /* You can also add other styles here if needed */
   }
 
 
@@ -92,7 +85,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 
 .text-input-group:focus-within {
-    border-color: var(--blue); /* Change border color when the div or its contents are focused */
+    border-color: var(--blue); 
   }
 
 .unit-label {
@@ -118,11 +111,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @media screen and (max-width: 76.063rem) {
-
     .calculator-container {
         max-width: 42.875rem;
-
-
 
     }
 }
