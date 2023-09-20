@@ -3,7 +3,7 @@ import "../styles/Results.css";
 
 const Results = () => {
   return (
-    <section style={{ marginTop: "8.19rem" }}>
+    <section style={{ marginTop: "3rem" }}>
       <div className="results-wrapper">
         <div id="results-background-image">
           <img src={images.person} alt="person" className="shrink-image" />
